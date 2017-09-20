@@ -1,0 +1,241 @@
+.container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+
+/*
+* Первая часть шапки
+ */
+.edn__header{
+    background-color: #2b2c31;
+    height: 47px;
+    color: white;
+}
+
+.edn__header__social_img, .edn__header__email_header, .edn__header__phone-header{
+    display: inline-block;
+    margin: 12px 0;
+}
+
+.edn__header__social_img{
+    margin-left: 19px;
+    margin-right: 38px;
+}
+
+.edn__header__email_header{
+    margin-right: 35px;
+}
+
+.edn__header__phone-header{
+    margin-right: 60px;
+}
+
+.edn__header__text_header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #d2d2d2;
+    margin-left: 11px;
+}
+
+.edn__header_animate_icon{
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    top: -7px;
+}
+
+.edn__header__search_field{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.edn__header__search-field_input{
+    border: 1px solid #2b2c31;
+    border-left: 1px solid #4c4d51;
+    border-right: 1px solid #4c4d51;
+    border-radius: 2px;
+    background: url(../imgs/search_icon.png) no-repeat;
+    background-position-x: 216px;
+    background-position-y: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #d2d2d2;
+    width: 250px;
+}
+
+.edn__header__search-field_input:focus{
+    border: 1px solid #2b2c31;
+    border-left:1px solid #4c4d51 ;
+    border-right:1px solid #4c4d51;
+    background-color: #2b2c31;
+    background: none;
+
+}
+
+.edn__header__multilanguages_buttons{
+    display: inline-block;
+    margin-left: 27px;
+}
+
+.edn__header__multilanguages_buttons_rus{
+    color: #2b2c31;
+    border-radius: 5px;
+    background-color: #d2d2d2;
+    padding: 7px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.edn__header__multilanguages_buttons_rus:link{
+    text-decoration: none;
+    color: #2b2c31;
+}
+
+.edn__header__multilanguages_buttons_rus:visited{
+    text-decoration: none;
+    color: #2b2c31;
+}
+
+.edn__header__multilanguages_buttons_rus:hover{
+    text-decoration: none;
+    color: #2b2c31;
+}
+
+.edn__header__multilanguages_buttons_rus:active{
+    text-decoration: none;
+    color: #2b2c31;
+}
+
+.edn__header__multilanguages_buttons_ua{
+    color: #d2d2d2;
+    border-radius: 5px;
+    padding: 7px 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.edn__header__multilanguages_buttons_ua:link{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.edn__header__multilanguages_buttons_ua:visited{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.edn__header__multilanguages_buttons_ua:hover{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.edn__header__multilanguages_buttons_ua:active{
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+/*
+* Вторя часть шапки
+ */
+
+.edn__menu{
+    background-color: #000;
+    height: 90px;
+    margin-top: -5px;
+}
+
+.edn__menu__logo{
+    margin: 24px 0;
+}
+
+.edn__menu__logo, .edn__menu__menu_list{
+    display: inline-block;
+}
+
+.edn__menu__menu_list{
+    width: 783px;
+}
+
+.edn__menu__nav{
+    list-style: none;
+}
+
+.edn__menu__nav li{
+    display: inline-block;
+    margin-left: 21px;
+}
+
+.edn__menu__nav li a, .edn__menu__basket span a{
+    color: #eeeeee;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+.edn__menu__nav li a:hover, .edn__menu__basket span a:hover{
+    cursor: pointer;
+}
+
+.edn__menu__basket{
+    display: inline-block;
+    margin-left: 59px;
+}
+
+.edn__menu__path{
+    height: 73px;
+}
+
+.edn__menu__path span{
+   position: relative;
+    top: 13px;
+    font-family: 'Roboto Slab', serif;
+    color: #747474;
+    font-size: 16px;
+}
+
+/*
+*Стили под меню
+ */
+
+.edn__sub_menu{
+    height: 73px;
+    margin-top: 73px;
+    background: url("../imgs/coals_backgraund.png") no-repeat;
+}
+
+.edn__sub_menu span{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.edn__sub_menu img{
+    margin-left: 33px;
+}
+
+.white_band_1{
+    margin-left: 35px;
+    margin-right: 41px;
+}
+
+.white_band_2{
+    margin-left: 17px;
+    margin-right: 44px;
+}
+
+.white_band_3{
+    margin-left: 29px;
+    margin-right: 37px;
+}
+.white_band_4{
+    margin-left: 33px;
+    margin-right: 0;
+}
