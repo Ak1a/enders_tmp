@@ -52,6 +52,33 @@
     top: -7px;
 }
 
+.animateIcon__like{
+    margin-top: 10px;
+}
+
+.animateIcon__libra{
+    margin-top: 10px;
+    margin-left: -5px;
+}
+
+.animateIcon__elipse{
+    position: relative;
+    top: -3px;
+    right: 8px;
+}
+
+.animateIcon__numb-like{
+    position: absolute;
+    top: 4px;
+    right: 72px;
+}
+
+.animateIcon__numb-libra{
+    position: absolute;
+    top: 4px;
+    right: 15px;
+}
+
 .container__searchField{
     display: inline-block;
     margin-left: 20px;
@@ -71,6 +98,7 @@
     line-height: 24px;
     color: #d2d2d2;
     width: 250px;
+    margin-left: -15px;
 }
 
 .searchField__input:focus{
@@ -149,17 +177,16 @@
 * Вторя часть шапки
  */
 
-.edn__menu{
+.b-menu{
     background-color: #000;
     height: 90px;
-    margin-top: -5px;
 }
 
-.edn__menu__logo{
+.container__logo{
     margin: 24px 0;
 }
 
-.edn__menu__logo, .edn__menu__menu_list{
+.container__logo, .edn__menu__menu_list{
     display: inline-block;
 }
 
@@ -167,7 +194,7 @@
     width: 783px;
 }
 
-.edn__menu__nav{
+.container_nav{
     list-style: none;
 }
 

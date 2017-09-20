@@ -32,9 +32,17 @@
 			<span class="b-phone__text"> 044 225 86 10</span>
 			<span class="b-phone__text"> 044 425 07 62</span>
 		</div>
-		<div class="container__animateIcon">
-			<img src="imgs/like_icon.png" alt="like icon">
-			<img src="imgs/libra_icon.png" alt="libra icon">
+		<div class="container__animateIcon animateIcon">
+			<img class="animateIcon__like" src="imgs/heart_icon.png" alt="like icon">
+			<span>
+				<img class="animateIcon__elipse" src="imgs/elipse_icon.png" alt="elips">
+				<span class="animateIcon__numb-like">2</span>
+			</span>
+			<img class="animateIcon__libra" src="imgs/libra_icon.png" alt="libra icon">
+			<span>
+				<img class="animateIcon__elipse" src="imgs/elipse_icon.png" alt="elips">
+				<span class="animateIcon__numb-libra">1</span>
+			</span>
 		</div>
 		<div class="container__searchField searchField">
 			<input class="searchField__input" type="text" placeholder="   Поиск...">
@@ -45,13 +53,14 @@
 		</div>
 	</div>
 </div>
-<div class="edn__menu">
-	<div class="edn__menu_container container">
-		<div class="edn__menu__logo">
+<div class="b-menu">
+	<div class="b-menu__container container">
+		<div class="container__logo">
 			<img src="imgs/logo.png" alt="LOGO">
 		</div>
-		<div class="edn__menu__menu_list">
-			<ul class="edn__menu__nav">
+		<div class="container_nav b-nav">
+			
+			<ul class="nav nav-bar">
 				<li><a>ГЛАВНАЯ</a></li>
 				<li><a>ПРОДУКЦИЯ</a></li>
 				<li><a>СЕРТИФИКАТЫ</a></li>
@@ -62,7 +71,7 @@
 				<li><a>КОНТАКТЫ</a></li>
 			</ul>
 		</div>
-		<div class="edn__menu__basket">
+		<div class="container__basket">
 			<img src="imgs/bascet_icon.png" alt="basket">
 			<span><a>Корзина</a></span>
 		</div>
