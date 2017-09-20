@@ -277,41 +277,63 @@
 }
 
 /*
-*Стили под меню
+*Стили подменю
  */
 
-.edn__sub_menu{
-    height: 73px;
+.b-subMenu{
+    height: 77px;
     margin-top: 73px;
     background: url("../imgs/coals_backgraund.png") no-repeat;
 }
 
-.edn__sub_menu span{
+.b-subMenu__text{
     font-family: 'Roboto Slab', serif;
     font-size: 14px;
     color: #fff;
-
 }
 
-.edn__sub_menu img{
-    margin-left: 33px;
+.b-subMenu__img_overviwe{
+    margin: 0 0 0 47px;
+    position: relative;
+    top: -5px;
+}
+
+.b-subMenu__img_recipe{
+    margin-left: 50px;
+    position: relative;
+    top: -5px;
+}
+
+.b-subMenu__img_documentation{
+    position: relative;
+    top: -5px;
+}
+
+.b-subMenu__img_video{
+    margin-left: 74px;
+    position: relative;
+    top: -5px;
+}
+
+.white_band_0{
+    margin-right: 15px;
 }
 
 .white_band_1{
-    margin-left: 35px;
-    margin-right: 41px;
+    margin-left: 31px;
+    margin-right: 38px;
 }
 
 .white_band_2{
-    margin-left: 17px;
-    margin-right: 44px;
+    margin-left: 12px;
+    margin-right: 40px;
 }
 
 .white_band_3{
-    margin-left: 29px;
-    margin-right: 37px;
+    margin-left: 25px;
+    margin-right: 33px;
 }
 .white_band_4{
-    margin-left: 33px;
-    margin-right: 0;
+    position: relative;
+    left: 28px;
 }
