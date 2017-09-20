@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Din Pro md";
+    src: url(../fonts/dinpro-medium.otf);
+}
+
+@font-face {
+    font-family: "Din Pro li";
+    src: url(../fonts/din-pro-li.otf);
+}
+
 .container{
     padding-right: 0 !important;
     padding-left: 0 !important;
@@ -336,4 +346,351 @@
 .white_band_4{
     position: relative;
     left: 28px;
+}
+
+/*
+* Контент
+*/
+
+.b-content{
+    margin-top: 15px;
+}
+
+.b-content__header{
+    display: inline-block;
+    position: relative;
+    left: -15px;
+    font-family: 'Din Pro md';
+    font-size: 31px;
+    line-height: 53px;
+}
+
+/*
+* Select
+*/
+
+.dropcontainer {
+    display: inline-block;
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    font-size: 16px;
+    color: #fff  !important;
+    text-decoration: none !important;
+    width: 294px !important;
+    height: 53px;
+}
+
+.trigger {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right;
+    color: #fff  !important;
+    padding: 10px;
+    font-size: 16px;
+    width: 294px !important;
+    height: 53px;
+    background: #000 url(../imgs/select_arrow.png) 98% center no-repeat !important;
+    display: inline-block;
+    border: 1px solid #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+}
+
+.trigger:hover {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    color: #fff  !important;
+    background: #000 url(../imgs/select_arrow.png) 98% center no-repeat !important;
+    text-decoration: none !important;
+}
+
+.activetrigger {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    color: #fff  !important;
+    padding: 10px;
+    font-size: 16px;
+    background: #000 url(../imgs/select_arrow.png) 98% center no-repeat !important;
+    display: block;
+    border: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.activetrigger:hover {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    background: #000 url(../imgs/select_arrow.png) 98% center no-repeat !important;
+    color: #fff  !important;
+    text-decoration: none !important;
+    width: 294px !important;
+}
+
+.activetrigger:active {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    background: #000 url(../imgs/select_arrow.png) 98% center no-repeat !important;
+    color: #fff;
+    text-decoration: none !important;
+}
+
+.dropcontainer ul {
+    position: relative !important;
+    top: 42px !important;
+    left: 294px !important;
+    float: right !important;
+    width: 294px !important;
+    font-size: 16px;
+    border: 1px solid #fff;
+    border-top: none;
+    background: #000 !important;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    z-index: 100;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.dropcontainer ul li {
+    position: relative !important;
+    top: 42px !important;
+    left: 294px !important;
+    float: right !important;
+    width: 294px !important;
+    padding: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    text-decoration: none !important;
+}
+
+.dropcontainer ul li:hover {
+    position: relative !important;
+    top: 0 !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    background: #000 !important;
+    outline: none;
+    text-decoration: none !important;
+}
+
+.dropcontainer ul li:first-child {
+    position: relative !important;
+    top: 0 !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    display: none;
+    text-decoration: none !important;
+}
+
+.dropcontainer ul li:last-child {
+    position: relative !important;
+    top: 0 !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    border-bottom: none;
+    text-decoration: none !important;
+}
+
+.dropdownhidden {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    display: none;
+    text-decoration: none !important;
+}
+
+.dropdownvisible {
+    position: relative !important;
+    top: -52px !important;
+    left: 15px !important;
+    float: right !important;
+    width: 294px !important;
+    height: auto;
+    text-decoration: none !important;
+}
+
+/*
+* Конец селекта
+ */
+.b-content__container{
+    width: 820px;
+    display: inline-block;
+}
+
+.b-content__mainImgCategory{
+    position: relative;
+    left: -15px;
+}
+
+.b-content__triangle{
+    position: relative;
+    top: -25px;
+    left: 50px;
+
+}
+
+.b-content__rectangleCategory{
+    position: relative;
+    left: -15px;
+    top: -48px;
+    background-color: #f1f1f1;
+    width: 820px;
+    height: 145px;
+}
+
+.b-content__rectangleCategoryText{
+    display: inline-block;
+    font-family: "Din Pro md";
+    font-size: 22px;
+    line-height: 33px;
+    color: #bb0000;
+    position: relative;
+    top: 15px;
+    left: 18px;
+}
+
+.b-content__rectangleCategoryTime{
+    display: inline-block;
+    font-family: "Din Pro md";
+    font-size: 22px;
+    line-height: 33px;
+    color: #c2c2c2;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.b-content__rectangleCategoryName{
+    font-family: 'Roboto Slab', bold;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #636363;
+    position: relative;
+    top: 27px;
+    left: 20px;
+
+}
+
+.b-content__rectangleCategoryStars{
+    position: relative;
+    top: 43px;
+    left: 24px;
+}
+
+.b-content__side{
+    display: inline-block;
+    height: 701px;
+    width: 374px !important;
+    background: #2b2c31;
+    position: relative;
+    left: 30px;
+}
+
+.b-content__sideHeader{
+    text-align: center;
+    font-family: "Din Pro md";
+    font-size: 22px;
+    line-height: 53px;
+    color: #c5c5c5;
+}
+
+.b-content__sideElipse-1, .b-content__sideElipse-2{
+    display: inline-block;
+    margin: 0 22px;
+}
+
+.b-content__hr-1{
+    margin: 0 !important;
+    position: relative;
+    top: -6px;
+    width: 357px;
+}
+
+.b-content__hr-2{
+    margin: 0 !important;
+    top: 22px;
+    position: relative;
+    width: 357px;
+}
+
+.b-content__hr-3{
+    margin: 0 !important;
+    top: 7px;
+    position: relative;
+    left: 15px;
+    width: 357px;
+}
+
+.b-content__hr-4{
+    margin: 0 !important;
+    top: 22px;
+    position: relative;
+
+    width: 400px;
+}
+
+.b-content__sideTime{
+    position: relative;
+    left: 18px;
+    font-family: "Din Pro li", italic;
+    font-size: 16px;
+    line-height: 24px;
+    color:#636366;
+}
+
+.b-content__sideText-1{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Roboto Slab', bold;
+    font-weight: 700;
+    color: #fefefe;
+    margin-left: 17px;
+    margin-top: 5px;
+    height:130px;
+}
+
+.b-content__post-2{
+     margin-top: 43px;
+ }
+
+.b-content__post-3{
+    margin-top: 30px;
+}
+
+.b-content__sideStars{
+    position: relative;
+    left: 40px;
 }

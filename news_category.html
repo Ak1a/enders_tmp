@@ -8,7 +8,10 @@
 	      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type='text/javascript' src='js/select.js'></script>
 	<script
 			src="https://code.jquery.com/jquery-3.2.1.min.js"
 			integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -81,7 +84,7 @@
 				<li><a class="b-menu__basketLink">КОРЗИНА</a></li>
 			</ul>
 		</div>
-		
+	
 	</div>
 	<div class="edn__menu__path container">
 		<span>Главная > Грили BBQ > Рецепты</span>
@@ -108,7 +111,81 @@
 		<img src="imgs/white_band.png" alt="white band" class="white_band_4">
 	</div>
 </div>
-<div>
+<div class="b-content">
+	<div class="container">
+		
+		<div class="b-content__header">
+			РЕЦЕПТЫ НА ГРИЛЕ
+		</div>
+		<div class="b-content__select">
+			<select name="select" id="celect" class="turnintodropdown">
+				<option value="category">ВЫБЕРИТЕ КАТЕГОРИЮ</option>
+				<option value="category">ВЫБЕРИТЕ КАТЕГОРИЮ</option>
+			</select>
+		</div>
+		<div class="row">
+			<div class="b-content__container col-lg-8">
+				<div class="b-content__mainImgCategory" style="margin-right: 20px">
+					<img src="imgs/bbq.png" alt="bbq">
+				</div>
+				<div class="b-content__triangle">
+					<img src="imgs/triangle_grey.png" alt="triangle">
+				</div>
+				<div class="b-content__rectangleCategory">
+					<div class="b-content__rectangleCategoryText">РЕЦЕПТ МЕСЯЦА</div>
+					<div class="b-content__rectangleCategoryTime">
+						| 17.07.17
+					</div>
+					<div class="b-content__rectangleCategoryName">СВИННЫЕ РЕБРА В ВИННОМ СОУСЕ</div>
+					<div class="b-content__rectangleCategoryStars">
+						<img src="imgs/stars.png" alt="stars">
+					</div>
+				</div>
+			</div>
+			<div class="b-content__side col-lg-4">
+				
+				<div class=" b-content__sideHeader">
+					<img class="b-content__sideElipse-1" src="imgs/elipse_icon_grey.png" alt="elipse">ЛУЧШИЕ РЕЦЕПТЫ
+					<img class="b-content__sideElipse-2" src="imgs/elipse_icon_grey.png" alt="elipse">
+				</div>
+			<hr class="b-content__hr-1">
+				<div class="b-content__post-1 row">
+					<div class="col-lg-6">
+						<img src="imgs/post-1.png" alt="post-1" height="185" width="191">
+					</div>
+					<div class="col-lg-6">
+						<span class="b-content__sideTime">17.07.17</span>
+						<div class="b-content__sideText-1">СВИННЫЕ РЕБРА В ПИВНОМ СОУСЕ</div>
+						<img class="b-content__sideStars" src="imgs/post_stars.png" alt="stars">
+					</div>
+				</div>
+				<hr class="b-content__hr-2">
+				<div class=" b-content__post-2 row">
+					<div class="col-lg-6">
+						<img src="imgs/post-2.png" alt="post-2" height="185" width="191">
+					</div>
+					<div class="col-lg-6">
+						<span class="b-content__sideTime">17.07.17</span>
+						<div class="b-content__sideText-1">ЛОСОСЬ НА ГРИЛЛЕ <br> С ОВОЩАМИ</div>
+						<img class="b-content__sideStars" src="imgs/post_stars.png" alt="stars">
+					</div>
+					<hr class="b-content__hr-3">
+					<hr class="b-content__hr-4">
+				</div>
+				<div class=" b-content__post-3 row">
+					<div class="col-lg-6">
+						<img src="imgs/post-3.png" alt="post-2" height="185" width="191">
+					</div>
+					<div class="col-lg-6">
+						<span class="b-content__sideTime">17.07.17</span>
+						<div class="b-content__sideText-1">КУРИНЫЕ НОЖКИ</div>
+						<img class="b-content__sideStars" src="imgs/post_stars.png" alt="stars">
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
 
 </div>
 </body>
